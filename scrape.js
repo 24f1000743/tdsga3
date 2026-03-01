@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  const seeds = [24,25,26,27,28,29,30,31,32,33];
+  const seeds = [48,49,50,51,52,53,54,55,56,57];
   const BASE_URL = "https://sanand0.github.io/tdsdata/js_table/"; // <-- UPDATE THIS
 
   let grandTotal = 0;
